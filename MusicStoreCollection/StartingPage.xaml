@@ -1,0 +1,19 @@
+﻿<Window x:Class="MusicStoreCollection.StartingPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MusicStoreCollection"
+        mc:Ignorable="d"
+        Title="StartingPage" Height="450" Width="600">
+    <Grid>
+        <Grid HorizontalAlignment="Left" Height="292" VerticalAlignment="Top" Width="793">
+            <Image Source = "C:\Users\inesd\Downloads\startingpage.jpg" HorizontalAlignment="Left" Height="450"  VerticalAlignment="Top" Width="600"/>
+            <Label Content="BEATSYNC" FontWeight="Bold" Foreground="White" FontFamily="Century Gothic" FontSize="50" HorizontalAlignment="Center" Margin="171,91,366,0" VerticalAlignment="Top" Height="64" Width="256"/>
+        </Grid>
+        <Button x:Name="LogIn" Content="Log In" Foreground="Black" Background ="White" HorizontalAlignment="Left" Margin="88,330,0,0" VerticalAlignment="Top" Width="154" Height="59" Click="Button_Click"/>
+        <Button x:Name="SignUp" Content="Sign Up" Foreground="White" Background ="Darkred" HorizontalAlignment="Left" Margin="355,330,0,0" VerticalAlignment="Top" Width="154" Height="59" Click="Button_Click_1"/>
+        <TextBlock HorizontalAlignment="Left" FontFamily="Century Gothic" FontSize="20" Foreground="White" Margin="134,182,0,0" TextWrapping="Wrap" Text="Your  next  beat  is  a  click  away" VerticalAlignment="Top" Height="48" Width="341"/>
+    </Grid>
+</Window>
+
